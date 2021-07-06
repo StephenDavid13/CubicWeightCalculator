@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kogan Coding Challenge</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="kogan_script.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="titlebar">
+        <div class="wrap">
+            <img src="Assets/kogan-logo.jpg" height="50" />
+        </div>
+        <div class="titlebar_right">
+            <h3>Kogan Coding Challenge</h3>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="wrap">
+            <label for="category">Choose a category:</label>
+
+            <select name="category" id="categories" onchange="findItems(jsonData)"></select>
+            
+            <h2>Cubic Weight Calculator</h2>
+        </div>
+    </div>
+    <div id="post_content">
+        
+        <div id="actual_content" class="wrap"></div>
+    </div>
+    <div id="footer">
+        <div class="wrap">
+            <img src="Assets/kogan-logo.jpg" height="25" />
+        </div>
+    </div>
+</body>
+</html>

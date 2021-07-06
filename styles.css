@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat';
+}
+
+li {
+    list-style-type: circle;
+}
+
+.wrap {
+    max-width: 1450px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+#titlebar {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.titlebar_right {
+    float: right;
+    text-align: right;
+}
+
+.titlebar_right h3 {
+    margin: -45px 25px;
+}
+
+#banner .wrap {
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+#footer {
+    margin-top: 75px;
+}
